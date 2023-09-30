@@ -1,0 +1,18 @@
+/* Basic styling for the statistics container */
+.statistics-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Styling for input elements */
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Styling for result elements */
+.result-container {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="statistics-container">
+      <h2>Summary Statistics</h2>
+      <div class="input-container">
+        <label for="data-input">Enter Data (comma-separated):</label>
+        <input type="text" id="data-input" placeholder="e.g., 10, 20, 30, 40" />
+        <button id="calculate-button">Calculate</button>
+      </div>
+      <div class="result-container">
+        <p><strong>Mean:</strong> <span id="mean-result"></span></p>
+        <p><strong>Median:</strong> <span id="median-result"></span></p>
+        <p><strong>Mode:</strong> <span id="mode-result"></span></p>
+        <p>
+          <strong>Standard Deviation:</strong>
+          <span id="std-deviation-result"></span>
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
